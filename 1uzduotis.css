@@ -1,0 +1,50 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "pirmas pirmas pirmas"
+    "antras trecias ketvirtas"
+    "antras penktas penktas"
+    "sestas sestas septintas"
+    "astuntas astuntas astuntas";
+    gap: 5px 5px;
+}
+.item-1{
+    grid-area: pirmas;
+    background-color: palevioletred;
+}
+.item-2{
+    grid-area: antras;
+    background-color: blueviolet;
+}
+.item-3{
+    grid-area: trecias;
+    background-color: cadetblue;
+}
+.item-4{
+    grid-area: ketvirtas;
+    background-color: aquamarine;
+}
+.item-5{
+    grid-area: penktas;
+    background-color: darkslateblue;
+}
+.item-6{
+    grid-area: sestas;
+    background-color: palevioletred;
+}
+.item-7{
+    grid-area: septintas;
+    background-color: blueviolet;
+}
+.item-8{
+    grid-area: astuntas;
+    background-color: cadetblue;
+}
+.conteiner div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
